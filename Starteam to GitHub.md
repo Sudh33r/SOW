@@ -1,7 +1,7 @@
 
 # Statement of Work (SOW)
 
-## Starteam to Github Migration
+## Starteam to Github Migration - {Phase-1}
 
 ### I. Project Overview
 
@@ -10,7 +10,7 @@ This Statement of Work (SOW) outlines the scope, objectives, and deliverables fo
 ### II. Scope of Work
 
 1. **Scope of Starteam Instances**
-    - Starteam Instance 1 - 46 Repos
+    - Starteam Instance 1 - 41 Repos
     - Starteam Instance 2 - 2 Mono Repos with aprox 100 main parent folders
       
 2. **Phases of Migration**
@@ -19,19 +19,29 @@ This Statement of Work (SOW) outlines the scope, objectives, and deliverables fo
      - Documentaion and knowledge transfer on details of current GitHub environment
      - POC details from starteam, Devtools team
      - Have a clear understading from Starteam POC's on the Data and design the data Migration.
-     - Suggestions on the best practices and 
+     - Suggestions on the best practices and decision sign-off
        
    - POC and Sample test repo Migration phase
+     - Identify few test Repos from POC's and Migrate
+     - No gaps are identified with the requirements of scope defined
+     - sign-off from POC's and Devtools teams.
+       
    - Production Migration phase
+     - Migrate all the repos to GitHub which are defined on the scope.
+     - No gaps are identified with the requirements of scope defined
+     - sign-off from POC's and Devtools teams.
+       
    - Handover phase
+     - Knowledge transfer to Devtools team with all the documentations.
+     - sign-off from Devtools team.
    
 3. **Data Assessment and Planning**
    - Conduct a comprehensive analysis of the existing Starteam repository to identify all relevant data, including **users,permissions,LFS objects, commits, tags, releases, change sets, history, pull requests, and artifacts**.
    - Define the migration strategy based on the assessment, ensuring minimal downtime and data loss.
-   - Mandate to migrate History of **LFS objects, commits, tags, releases, change sets, history, pull requests, and artifacts**.
+   - Mandate to migrate History of **users,permissions,LFS objects, commits, tags, releases, change sets, history, pull requests, and artifacts**.
 
 4. **Migration Strategy**
-   - Develop a ***detailed migration plan***, specifying the sequence of migration tasks, dependencies, and estimated timelines.
+   - Develop a **detailed migration plan**, specifying the sequence of migration tasks, dependencies, and estimated timelines.
    - Ensure that the migration strategy is designed to handle LFS data efficiently.
 
 5. **Data Extraction**
@@ -67,7 +77,7 @@ This Statement of Work (SOW) outlines the scope, objectives, and deliverables fo
 ### III. Deliverables
 
 1. Detailed Migration Plan (Objectives, dependencies, Risks, Milestones and Timelines)
-2. Test repos migration 5 repos and sign -off from POC 
+2. 5 Test starteam repos migration and sign -off from POC 
 3. Extracted and Transformed Data
 4. Migrated Github Repository with all data
 5. Testing and Validation Reports
@@ -100,8 +110,19 @@ The terms and conditions of this SOW, including payment terms, project managemen
        |100% of repo Migration|  Migrated Github Repository with all data including History,Testing and Validation Reports , Migration report| 35% of Amount|
        |Handover|Handover of Migration scripts, Run Books and knowledge transfer|15% of Amount|
        
+### VII Time Line
 
-### VII. SOW Approval
+```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'default' } }%%
+    timeline
+        title Migrations
+          Due Feb 2024 : BitBucket to GitHub Migration Phase 1: Starteam  to GitHub Migration- Phase 1
+          Due Apr 2024 : Perforce  to GitHub Migration Phase 1: Starteam  to GitHub Migration- Phase 2
+          Due Jun 2024 : BitBucket to GitHub Migration Phase 2
+          
+```
+
+### VIII. SOW Approval
 This SOW shall only be valid if signed by both parties hereto. This SOW and any CR may be signed in separate counterparts, each of which shall be deemed an original and all of which together will be deemed to be an original. Any electronic signatures are deemed the equivalent of handwritten signatures. The terms set out are acceptable and agreed to by the undersigned.
 
 - Party 1
