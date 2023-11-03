@@ -36,9 +36,9 @@ This Statement of Work (SOW) outlines the scope, objectives, and deliverables fo
      - sign-off from Devtools team.
    
 3. **Data Assessment and Planning**
-   - Conduct a comprehensive analysis of the existing Starteam repository to identify all relevant data, including **users,permissions,LFS objects, commits, tags, releases, change sets, history, pull requests, and artifacts**.
+   - Conduct a comprehensive analysis of the existing Starteam repository to identify all relevant data, including **users,permissions,LFS objects, commits, tags, releases, change sets, history,issues, pull requests, and artifacts**.
    - Define the migration strategy based on the assessment, ensuring minimal downtime and data loss.
-   - Mandate to migrate History of **users,permissions,LFS objects, commits, tags, releases, change sets, history, pull requests, and artifacts**.
+   - Mandate to migrate History of **users,permissions,LFS objects, commits, tags, releases, change sets, history,issues pull requests, and artifacts**.
 
 4. **Migration Strategy**
    - Develop a **detailed migration plan**, specifying the sequence of migration tasks, dependencies, and estimated timelines.
@@ -52,7 +52,7 @@ This Statement of Work (SOW) outlines the scope, objectives, and deliverables fo
 
 7. **Data Migration**
    - Migrate all data to the designated Github repository.
-   - Ensure that all users, permssions, commits, tags, releases, change sets, history, pull requests, and artifacts are accurately transferred.
+   - Ensure that all users, permssions, commits, tags, releases, change sets, history,issues, pull requests, and artifacts are accurately transferred.
 
 8. **Large File Storage (LFS) Migration**
    - Ensure that all LFS objects are migrated, preserving their integrity and ensuring their proper tracking within Github LFS.
